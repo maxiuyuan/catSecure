@@ -76,7 +76,7 @@ def decrypt(encrypted_message, privateKey):
 
 if __name__=="__main__": 
     
-    message=10000
+    message=100
 
     encrypted_message, publicKey, privateKey = encrypt(message)
     print publicKey, privateKey

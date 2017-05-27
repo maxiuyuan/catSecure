@@ -2,6 +2,7 @@ var PopupController = function () {
     this.enbutton_ = document.getElementById("enCrypt");
     this.debutton_ = document.getElementById("deCrypt");
     this.password_ = document.getElementById("input");
+    this.search_ = document.getElementById("search");
     this.enListener_();
     this.deListener_();
 };
@@ -11,8 +12,8 @@ PopupController.prototype = {
     //constructor
     enbutton_: null,
     debutton_: null,
-
     password_: null,
+    search_: null,
 
 
     enListener_: function () {

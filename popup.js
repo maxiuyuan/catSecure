@@ -34,14 +34,6 @@ PopupController.prototype = {
             success.setAttribute("role", "alert");
             success.textContent = "Password has been processed: " + this.password_.value;
             document.body.appendChild(success);
-
-            setTimeout(function() { success.classList.add("visible"); }, 100);
-            setTimeout(function() {
-                if (close === false)
-                    success.classList.remove("visible");
-                else
-                    window.close();
-            }, 4000);
         }
     }
 };

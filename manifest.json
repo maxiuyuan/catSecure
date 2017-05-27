@@ -1,0 +1,17 @@
+{
+  "name": "CatSecure",
+  "description": "Encrypt your password.",
+  "version": "2.0",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "Encrypt your password.",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
